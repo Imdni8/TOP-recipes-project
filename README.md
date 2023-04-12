@@ -1,2 +1,2 @@
 # TOP_pr1_recipes
- Vanilla HTML website 
+ Recipe website done as TOP's HTML assignment
