@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0;
+}
+
+.page-title {
+    text-align: center;
+    color: blue;
+}
+
+img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+.overline {             
+    /* used in:
+    1. index.html - recipe type */
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+.recipe-link {
+    font-size: 30px;
+    font-weight: 800;
+    color: blue;
+}
+
+.recipe-link:hover {
+    background-color: blue;
+    color: white;
+    padding: 2px 8px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%; 
+    margin: 10px 24px;
+}
+
+.flexbox-item {
+    width: 33%;
+}
+
+footer {
+    background-color: rgb(76, 76, 230);
+    padding: 16px;
+    color: aliceblue;
+}

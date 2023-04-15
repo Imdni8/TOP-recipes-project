@@ -5,9 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>TOP recipes project</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Recipes for a lazy sunday</h1>
+        <h1 class="page-title">Recipes for a lazy sunday</h1>
 
         <!-- Img comes here -->
         <img
@@ -16,34 +17,33 @@
         />
 
         <!-- Links to recipe pages comes here -->
-        <ul>
+        <div class="flexbox">
             <!-- Recipe 1 -->
-            <li>
-                <strong>Appetizer:</strong>
-                <a href="Recipes/Bacon-Wrapped-Cherries.html"
-                    >Bacon-Wrapped Cherries</a
-                >
-            </li>
+            <div class="flexbox-item">
+                <p class="overline">Appetizer</p>
+                <a class="recipe-link" href="Recipes/Bacon-Wrapped-Cherries.html"
+                    >Bacon-Wrapped Cherries</a>
+            </div>
 
             <!-- Recipe 2 -->
-            <li>
-                <strong>Main course: </strong>
-                <a href="Recipes/Korean_bowl.html"
+            <div class="flexbox-item">
+                <p class="overline">Main course: </p>
+                <a class="recipe-link" href="Recipes/Korean_bowl.html"
                     >Korean ground beef bowl</a
                 >
-            </li>
+            </div>
 
             <!-- Recipe 3 -->
-            <li>
-                <strong>Dessert: </strong>
-                <a href="Recipes/Chocolate_mousse.html"
+            <div class="flexbox-item">
+                <p class="overline">Dessert: </p>
+                <a class="recipe-link" href="Recipes/Chocolate_mousse.html"
                     >5 Minute Baileys Chocolate Mousse</a
                 >
-            </li>
-        </ul>
+            </div>
+        </div>
 
         <!-- Reference -->
-        <h6>
+        <footer>
             Note
             <ol>
                 <li>
@@ -64,6 +64,6 @@
                     >
                 </li>
             </ol>
-        </h6>
+        </footer>
     </body>
 </html>
