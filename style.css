@@ -12,6 +12,7 @@ img {
     height: 70vh;
     width: 100%;
     object-fit: cover;
+    margin-bottom: 0;
 }
 
 a {
@@ -20,8 +21,7 @@ a {
     color: white;
 }
 
-
-.overline {             
+.overline {
     /* used in:
     1. index.html - recipe type */
     font-size: 12px;
@@ -44,8 +44,8 @@ a {
 
 .flexbox {
     display: flex;
-    justify-content: space-evenly;
-    margin: 16px;
+    justify-content: space-between;
+    margin: 24px 16px;
 }
 
 .flexbox-item {
@@ -56,4 +56,37 @@ footer {
     background-color: rgb(76, 76, 230);
     padding: 16px;
     color: aliceblue;
+}
+
+/* --------Recipe page-------- */
+
+.btn {
+    background-color: blue;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin: auto 16px;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.bg-img h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    font-size: 36px;
+    max-width: 360px;
+    padding: 8px 0;
+    border: solid blue 4px;
+}
+
+.bg-img button {
+    position: absolute;
+    top: 16px;
 }
