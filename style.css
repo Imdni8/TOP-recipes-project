@@ -90,3 +90,7 @@ footer {
     position: absolute;
     top: 16px;
 }
+
+.descrip {
+    font-style: italic;
+}
